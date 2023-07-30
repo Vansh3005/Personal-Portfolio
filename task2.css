@@ -1,0 +1,131 @@
+body
+{
+	margin:0px;
+	padding:0px;
+	background:linear-gradient(90deg,grey,black);
+}
+
+header
+{
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+}	
+
+.logo a
+{
+	color:white;
+}
+
+.logo img
+{
+	height:5%;
+	width:10%;
+	position:relative;
+	left:20px;
+}
+
+.navbar a
+{
+	font-size:20px;
+	font-family:monospace;
+	text-decoration:none;
+	font-weight:bold;
+	color:white;
+	position:relative;
+	left:50%;
+	bottom:100px;
+	padding-left:10px;
+	padding-right:80px;
+}
+
+.navbar a:hover
+{
+	color:blue;
+}
+
+section
+{
+	padding:0px;
+	margin:50px;
+	
+}	
+	
+
+.content h3
+{
+	font-size:25px;
+	font-family:cursive;
+	font-weight:bold;
+	color:white;
+}
+
+.content h2
+{
+	font-size:40px;
+	font-family:cursive;
+	font-weight:bold;
+	color:white;
+}
+
+.content p
+{
+	font-size:20px;
+	font-family:cursive;
+	font-weight:bold;
+	color:white;
+	padding-left:2px;
+	padding-right:50%;
+}
+
+.btn button
+{
+	border-radius:5px;
+	border:2px solid white;
+	margin-left:50px;
+	margin-right:10px;
+	font-size:15px;
+	margin-bottom:25px;
+	font-family:cursive;
+	font-weight:bold;
+	position:relative;
+	bottom:10px;
+	color:white;
+	background:linear-gradient(90deg,black,grey);
+}
+
+.btn button:hover
+{
+	background:linear-gradient(90deg,black,grey,brown);
+}
+
+.social a
+{
+	text-decoration:none;
+	margin-left:50px;
+	margin-right:10px;
+	color:white;
+}
+
+.social i
+{
+	font-size:30px;
+	font-weight:bold;
+	font-family:cursive;
+}
+
+.social a:hover
+{
+	color:magenta;
+}
+
+.image img
+{
+	position:absolute;
+	left:57%;
+	height:70%;
+	border:2px solid white;
+	background:linear-gradient(45deg,black ,grey);
+	border-radius:100%;
+	top:130px;
+}
